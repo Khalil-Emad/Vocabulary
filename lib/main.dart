@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 import 'core/app_export.dart';
 import 'core/constants/bloc_observer.dart';
@@ -49,7 +48,7 @@ class MyApp extends StatelessWidget {
                     child: MaterialApp(
                       theme: AppTheme.darkTheme,
                       builder: BotToastInit(),
-                      title: 'الحاسبة العقارية',
+                      title: 'Vocabulary',
                       navigatorKey: navigatorKey,
                       debugShowCheckedModeBanner: false,
                       initialRoute: AppRoutes.initialRoute,
